@@ -1,0 +1,11 @@
+{
+  // Site de Florence Rozenblit : projet Cloudflare dédié, sans base de données ni ressource partagée avec les autres projets.
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  "name": "florence-rozenblit-site",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
