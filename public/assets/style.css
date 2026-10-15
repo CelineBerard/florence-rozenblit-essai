@@ -65,7 +65,8 @@ nav.menu li.sub ul:before{content:"";position:absolute;top:-10px;left:0;right:0;
 nav.menu li.sub:hover ul,nav.menu li.sub:focus-within ul{opacity:1;visibility:visible;transform:none}
 nav.menu li.sub ul a{display:block;padding:9px 14px;border-radius:10px;text-decoration:none;color:var(--encre);font-size:14.5px}
 nav.menu li.sub ul a:hover,nav.menu li.sub ul a[aria-current]{background:var(--ivoire);color:var(--bleu)}
-.head-cta{flex-shrink:0}
+.head-cta{flex-shrink:0;padding:7px 18px;font-size:13.5px;line-height:1.2;background:#162552;border-color:#162552;box-shadow:0 8px 18px -12px rgba(22,37,82,.6)}
+.head-cta:hover{background:var(--bleu);border-color:var(--bleu)}
 details.burger{display:none}
 
 /* accueil : hero */
