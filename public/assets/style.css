@@ -117,6 +117,19 @@ aside.side{position:sticky;top:104px;align-self:start}
 .cta-band h2{color:#fff;font-size:34px;margin:0}
 .cta-band p{margin:.4em 0 0;color:#D4DDF5}
 
+.cards.two{grid-template-columns:1fr 1fr}
+ul.lst{list-style:none;padding:0;margin:4px 0 18px}
+ul.lst li{border-top:1px solid var(--ligne);padding:10px 0;font-size:15.5px}
+ul.lst a{text-decoration:none;color:var(--texte)}
+ul.lst a b{color:var(--bleu)}
+ul.lst a:hover{color:var(--bleu)}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chips span{background:var(--sable);color:var(--nuit);border-radius:999px;padding:9px 16px;font-size:14.5px;font-weight:500}
+.presc{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:10px 0 8px}
+.presc div{background:#fff;border:1px solid var(--ligne);border-radius:16px;padding:20px 22px}
+.presc h3{font-size:22px;margin-bottom:.3em}
+.presc p{margin:0;font-size:15.5px;color:var(--gris)}
+
 /* footer */
 footer.site{background:var(--nuit);color:#AEB9D2;padding:56px 0 28px;font-size:14.5px}
 footer.site .cols{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:40px}
@@ -140,7 +153,7 @@ footer.site img{height:44px;margin-bottom:14px}
   details.burger nav a{display:block;padding:9px 20px;text-decoration:none;color:var(--nuit)}
   .hero .wrap,.split,.content{grid-template-columns:1fr}
   .hero .mark{max-width:380px;margin:0 auto}
-  .cards,.points,.faq,.contact-grid{grid-template-columns:1fr}
+  .cards,.cards.two,.points,.faq,.contact-grid,.presc{grid-template-columns:1fr}
   aside.side{position:static}
   footer.site .cols{grid-template-columns:1fr}
   .cta-band{padding:32px}
