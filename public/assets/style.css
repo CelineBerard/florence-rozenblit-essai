@@ -73,6 +73,7 @@ details.burger{display:none}
 .hero .wrap{display:grid;grid-template-columns:1.08fr .92fr;gap:72px;align-items:center;position:relative}
 .hero h1{font-size:clamp(44px,5.6vw,78px);line-height:1.02;margin-bottom:26px}
 .hero h1 em{font-style:italic;color:var(--bleu)}
+.hero h1 .vous{letter-spacing:.04em}
 .hero .lead{max-width:34em;margin:0 0 34px}
 .ctas{display:flex;gap:14px;flex-wrap:wrap}
 .facts{list-style:none;padding:0;margin:44px 0 0;display:grid;grid-template-columns:repeat(3,auto);gap:12px 36px;justify-content:start;border-top:1px solid var(--ligne);padding-top:26px}
