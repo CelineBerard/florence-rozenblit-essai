@@ -117,6 +117,7 @@ aside.side{position:sticky;top:104px;align-self:start}
 .cta-band h2{color:#fff;font-size:34px;margin:0}
 .cta-band p{margin:.4em 0 0;color:#D4DDF5}
 
+.card .tagline{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--or);font-weight:600;margin-bottom:8px}
 .cards.two{grid-template-columns:1fr 1fr}
 ul.lst{list-style:none;padding:0;margin:4px 0 18px}
 ul.lst li{border-top:1px solid var(--ligne);padding:10px 0;font-size:15.5px}
