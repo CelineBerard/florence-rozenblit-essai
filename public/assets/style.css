@@ -21,7 +21,7 @@ a{color:var(--bleu);text-underline-offset:3px}
 h1,h2,h3{font-family:var(--serif);color:var(--encre);font-weight:600;line-height:1.08;letter-spacing:-.01em;margin:0 0 .45em}
 h2{font-size:clamp(32px,3.6vw,48px)}
 h3{font-size:clamp(24px,2.2vw,30px)}
-.hand,.sec-head p.hand{font-family:'Dancing Script',cursive;font-size:clamp(40px,4.2vw,58px);font-weight:600;color:#CDB38A;margin:0 0 4px;line-height:1.05}
+.hand,.band .sec-head p.hand{font-family:'Dancing Script',cursive;font-size:clamp(40px,4.2vw,58px);font-weight:600;color:#CDB38A;margin:0 0 4px;line-height:1.05}
 .kick{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--or);font-weight:600;margin:0 0 16px}
 .lead{font-size:clamp(18px,1.6vw,21px);line-height:1.6;color:var(--encre-2)}
 .ph{background:#FFF0B8;color:#6B4E00;padding:0 5px;border-radius:4px;font-weight:600}
