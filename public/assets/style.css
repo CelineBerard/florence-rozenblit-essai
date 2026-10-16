@@ -287,3 +287,7 @@ footer.site .legal{border-top:1px solid #2A3B63;margin-top:52px;padding-top:22px
   footer.site .cols{grid-template-columns:1fr}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+/* site d'essai : mots-clés surlignés en gris pâle */
+mark.kw{background:#ECEEF2;color:inherit;border-radius:3px;padding:0 2px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.page-hero mark.kw,.band.dark mark.kw,.cta-band mark.kw{background:rgba(255,255,255,.14)}
