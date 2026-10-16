@@ -189,6 +189,25 @@ picture.avatar img{width:96px;height:96px;border-radius:50%;object-fit:cover;mar
 .faq summary:after{content:"+";color:var(--or);font-family:var(--sans);font-weight:400;font-size:24px;line-height:1;transition:transform .25s}
 .faq details[open] summary:after{transform:rotate(45deg)}
 .faq p{margin:.7em 0 0;color:var(--gris)}
+.contact-layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:28px;margin-top:40px;align-items:start}
+.contact-layout .card{background:var(--papier);border:1px solid var(--ligne);border-radius:var(--r);padding:30px}
+.contact-layout .card h3{font-size:26px;margin-bottom:.4em}
+.contact-info{display:grid;gap:18px}
+.contact-info .card p{color:var(--gris);margin:0 0 12px}
+.contact-info .card p b{color:var(--encre)}
+.contact-info .card.soft{background:var(--sable)}
+.contact-info .card p.small{font-size:14px}
+.rdv .fields{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px;margin:18px 0 22px}
+.rdv label{display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:600;color:var(--encre)}
+.rdv label.full{grid-column:1/-1}
+.rdv input,.rdv select,.rdv textarea{font:inherit;font-weight:400;font-size:15.5px;color:var(--encre);background:var(--ivoire);border:1px solid var(--ligne);border-radius:12px;padding:12px 14px;width:100%}
+.rdv input:focus,.rdv select:focus,.rdv textarea:focus{outline:2px solid var(--bleu);outline-offset:1px;background:#fff}
+.rdv label.check{flex-direction:row;align-items:flex-start;gap:10px;font-weight:400;color:var(--gris)}
+.rdv label.check input{width:auto;margin-top:4px}
+.rdv .form-note{font-size:13.5px;color:var(--gris);margin:6px 0 0}
+.hours{width:100%;border-collapse:collapse;font-size:15.5px;margin-bottom:12px}
+.hours td{padding:8px 0;border-bottom:1px solid var(--ligne)}
+.hours td:last-child{text-align:right;font-weight:600;color:var(--encre)}
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:34px}
 .contact-grid .card{background:var(--papier);border:1px solid var(--ligne);border-radius:var(--r);padding:30px}
 .contact-grid .card h3{font-size:25px}
@@ -258,7 +277,7 @@ footer.site .legal{border-top:1px solid #2A3B63;margin-top:52px;padding-top:22px
   .facts{grid-template-columns:1fr 1fr 1fr;gap:10px 16px}
   .facts b{font-size:22px}
   .band{padding:72px 0}
-  .domains,.points,.faq,.contact-grid,.presc{grid-template-columns:1fr}
+  .domains,.points,.faq,.contact-grid,.presc,.contact-layout,.rdv .fields{grid-template-columns:1fr}
   .page-intro{grid-template-columns:1fr;gap:28px}
   picture.ph-intro img{max-width:360px}
   .partners-card{padding:30px 24px}
