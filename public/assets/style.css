@@ -288,6 +288,20 @@ footer.site .legal{border-top:1px solid #2A3B63;margin-top:52px;padding-top:22px
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 
+/* blog */
+.posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px;margin:34px 0 10px}
+.post-card{display:flex;flex-direction:column;gap:10px;background:var(--papier);border:1px solid var(--ligne);border-radius:var(--r);padding:28px;text-decoration:none;color:var(--encre);transition:transform .25s,box-shadow .25s}
+.post-card:hover{transform:translateY(-3px);box-shadow:var(--ombre)}
+.post-card h2{font-size:25px;line-height:1.15;margin:0}
+.post-card p{color:var(--gris);font-size:15.5px;margin:0;flex:1}
+.post-cat{display:inline-block;align-self:flex-start;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--or);font-weight:600;margin-right:10px}
+.post-date{font-size:13.5px;color:var(--gris)}
+.post-meta{font-size:14.5px;color:var(--gris);margin:0 0 18px}
+.post-more{margin-top:40px;padding:26px 28px;background:var(--sable);border-radius:var(--r)}
+.post-more h3{font-size:24px;margin-bottom:.3em}
+.post-more ul{margin:0}
+.prose p.small{font-size:14px;color:var(--gris)}
+ul.soon li{color:var(--gris)}
 /* site d'essai : mots-clés surlignés en gris pâle */
 mark.kw{background:#ECEEF2;color:inherit;border-radius:3px;padding:0 2px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .page-hero mark.kw,.band.dark mark.kw,.cta-band mark.kw{background:rgba(255,255,255,.14)}
