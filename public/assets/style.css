@@ -290,8 +290,10 @@ footer.site .legal{border-top:1px solid #2A3B63;margin-top:52px;padding-top:22px
 
 /* blog */
 .posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px;margin:34px 0 10px}
-.post-card{display:flex;flex-direction:column;gap:10px;background:var(--papier);border:1px solid var(--ligne);border-radius:var(--r);padding:28px;text-decoration:none;color:var(--encre);transition:transform .25s,box-shadow .25s}
+.post-card{display:flex;flex-direction:column;gap:10px;background:var(--papier);border:1px solid var(--ligne);border-radius:var(--r);padding:0 28px 28px;overflow:hidden;text-decoration:none;color:var(--encre);transition:transform .25s,box-shadow .25s}
 .post-card:hover{transform:translateY(-3px);box-shadow:var(--ombre)}
+.post-img{display:block;width:calc(100% + 56px);max-width:none;margin:0 -28px 12px;height:auto;aspect-ratio:16/9;object-fit:cover}
+.post-fig{margin:0 0 26px}.post-fig img{display:block;width:100%;height:auto;border-radius:var(--r)}
 .post-card h2{font-size:25px;line-height:1.15;margin:0}
 .post-card p{color:var(--gris);font-size:15.5px;margin:0;flex:1}
 .post-cat{display:inline-block;align-self:flex-start;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--or);font-weight:600;margin-right:10px}
